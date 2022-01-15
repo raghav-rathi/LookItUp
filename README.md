@@ -7,8 +7,8 @@ Tech Stack:
 GoLang, React, Python, MySQL
 
 Team Members:
-Raghav Rathi : raghav-rathi
-Suneet Jain: suneet10
-Priyanshu Prasad: pinchu0499
-Daksh Mehta: dakshmehta23
+Raghav Rathi : raghav-rathi <br>
+Suneet Jain: suneet10 <br>
+Priyanshu Prasad: pinchu0499 <br>
+Daksh Mehta: dakshmehta23 <br>
 
