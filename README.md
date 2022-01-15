@@ -3,10 +3,10 @@ LookItUp is a web and mobile application that allows its users to scan the ingre
 Ratings of the product will also be displayed to the user based on safety composition(accuracy improves as our database expands).
 
 
-Tech Stack:
-GoLang, React, Python, MySQL
+Tech Stack:<br>
+GoLang<br> React<br> Python<br> MySQL
 
-Team Members:
+Team Members:<br>
 Raghav Rathi : raghav-rathi <br>
 Suneet Jain: suneet10 <br>
 Priyanshu Prasad: pinchu0499 <br>
