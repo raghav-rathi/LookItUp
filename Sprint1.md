@@ -21,8 +21,16 @@
 ![Password Encryption](/assets/Images/encrypt-pass.png)
 
 ### 5.Allow user to login using their credentials stored in the database. <br/>
+
+![Register New User](/assets/Images/login.png)
+
 ### 6.User data is stored as cookie, so that the user remains logged in even if the page is refereshed. <br/>
+
+![Register New User](/assets/Images/cookies-saved.png)
+
 ### 7.Created function to log out the user and delete stored cookies. <br/>
+
+![Register New User](/assets/Images/cookies-deleted.png)
 
 
 
