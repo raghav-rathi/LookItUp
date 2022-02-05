@@ -14,9 +14,9 @@ function App() {
      <Header/>
      <main>
       <Container> 
-      <Route path='/' component={HomeScreen}/>
+      <Route path='/' exact component={HomeScreen}/>
       <Route path='/signup' component={SignupScreen}/>
-      <Route path='/login' component={LoginScreen}/>
+      <Route path='/login' component={LoginScreen}/> 
      </Container>
      </main>
      <Footer/>
