@@ -1,10 +1,10 @@
 package users
 
 import (
-	"errors"
+	"github.com/raghav-rathi/LookItUp/backend/domain/users"
+	"github.com/raghav-rathi/LookItUp/backend/utils/errors"
 
 	"github.com/gin-gonic/gin"
-	"github.com/raghav-rathi/LookItUp/backend/domain/users"
 )
 
 func Register(c *gin.Context) {
