@@ -6,10 +6,10 @@ import Footer from './components/Footer'
 function App() {
   return (
     <>
-    <Header/>
-   <h1>Testing success working</h1>
-   <Footer/>
-   </>
+     <Header/>
+     <h1>Testing react app</h1>
+     <Footer/>
+     </>
   );
 }
 
