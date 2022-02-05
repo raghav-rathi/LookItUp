@@ -16,4 +16,10 @@ func CreateUser(user users.User) (*users.User, *errors.RestErr) {
 	}
 	user.Password = string(pwSlice[:])
 
+	if err := user.Save(); err != nil {
+		return nil, err
+	}
+
+	return &user, nil
+
 }
