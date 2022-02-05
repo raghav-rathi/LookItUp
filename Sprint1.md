@@ -1,7 +1,9 @@
 # Sprint 1 
 **The major objective of our Sprint 1 was to implement the Login/Sign up functionality of the application. This will allow the user to register and log in into our web application. The user's credentials and information is stored in the sql database that we have hosted locally (for now). In future, we will host a sql server on AWS or Firebase.In the upcoming sprints, we will integrate this login/sign up functionality with other features of the application.**
 
-## **Demo Link :** https://youtu.be/cBWP9MVdO8I
+## **Demo Links :** <br/>
+Frontend demo: https://youtu.be/fQEifb0wewI <br/>
+Backend demo: https://youtu.be/cBWP9MVdO8I <br/>
 ## Frontend Accomplishments :
 ### 1.Created Login screen for new Users so that can can save their searches and preferences. <br/>
 ![frontendpage](/assets/Images/FrontendScreen.jpeg)
