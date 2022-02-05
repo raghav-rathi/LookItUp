@@ -1,7 +1,15 @@
 import React from 'react';
 
-const HomeScreen = () => {
-  return <div>Welcome to Homepage</div>;
+interface Props{
+  firstName: string 
+}
+
+const HomeScreen = (firstName) => {
+  return (
+    firstName ? <h1> Welcome {firstName} </h1>
+  ) : (
+    <h1>Welcome to the Home page! You are not logged in.</h1>
+  )
 };
 
 export default HomeScreen;

@@ -1,4 +1,4 @@
-import React from 'react';
+import {useEffect,useState} from 'react';
 import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -9,12 +9,28 @@ import LoginScreen from './screens/LoginScreen';
 import SignupScreen from './screens/SignupScreen';
 
 function App() {
+
+  const[firstName,setFirstName] = useState('')
+useEffect(() =>{
+  (
+    async () => {
+      const response = await fetch('https://localhost:8081/api/user',{
+       headers:{'Content-Type':'application/json'},
+       credentials:'include' 
+      })
+      const data = response.json()
+      setFirstName(data.first_name)
+    }
+  )() 
+})
+
+
   return (
     <Router>
-     <Header/>
+     <Header firstName={firstName} setFirstName={setFirstName}  />
      <main>
       <Container> 
-      <Route path='/' exact component={HomeScreen}/>
+      <Route path='/' exact component={() => <HomeScreen firstName={firstName} />}
       <Route path='/signup' component={SignupScreen}/>
       <Route path='/login' component={LoginScreen}/> 
      </Container>

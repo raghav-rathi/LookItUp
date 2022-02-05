@@ -1,0 +1,19 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   ../frontend/src/App.tsx
+#	modified:   ../frontend/src/components/Header.tsx
+#	modified:   ../frontend/src/screens/HomeScreen.tsx
+#	modified:   ../frontend/src/screens/LoginScreen.tsx
+#	modified:   ../frontend/src/screens/SignupScreen.tsx
+#
+# Untracked files:
+#	../frontend/src/components/FormContainer.tsx
+#	../package-lock.json
+#	../package.json
+#
