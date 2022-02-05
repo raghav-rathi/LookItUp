@@ -1,6 +1,11 @@
 # Sprint 1 
 ## **Demo Links :**
   ###  Front End: <br/>
+## Frontend Accomplishments :
+### 1.Created Login screen for new Users so that can can save their searches and preferences. <br/>
+![frontendpage](/assets/Images/FrontendScreen.jpeg)
+
+### 2.Created Registration functionality design.
   ###  Back End: <br/>
 
 ## Backend Accomplishments :
