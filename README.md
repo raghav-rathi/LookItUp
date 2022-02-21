@@ -8,7 +8,7 @@ GoLang<br> React<br> Gin<br> MySQL
 
 Team Members:<br>
 Raghav Rathi : raghav-rathi <br>
-Priyanshu Prasad: pinchu0499 <br>
+Priyanshu Prasad: priyanshu0499 <br>
 Suneet Jain: suneet10 <br>
 Daksh Mehta: dakshmehta23 <br>
 
