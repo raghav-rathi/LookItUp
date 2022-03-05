@@ -6,7 +6,7 @@ function Header(props) {
     <div className='container'>
         <div className='wrapper'>
             <div className='logo' onClick={props.goToHome}>
-                PLASER
+                LookItUp
             </div>
             <div className='scanner' onClick={props.goToHome}>    
                 Scanner
