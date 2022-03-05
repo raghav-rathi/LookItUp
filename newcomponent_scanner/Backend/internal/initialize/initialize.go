@@ -1,8 +1,9 @@
 package initialize
 
 import (
-	"Plaser/internal/http"
-	"Plaser/pkg/db/mysql"
+	"github.com/raghav-rathi/LookItUp/newcomponent_scanner/Backend/internal/http"
+
+	"github.com/raghav-rathi/LookItUp/newcomponent_scanner/Backend/pkg/db/mysql"
 
 	"github.com/raghav-rathi/LookItUp/newcomponent_scanner/Backend/internal/initialize/http"
 )
