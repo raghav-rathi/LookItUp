@@ -1,0 +1,202 @@
+.container-scanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+.wrapper-scanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50rem;
+    min-width: 10rem;
+    width: 90%;
+    background: linear-gradient(to right, rgb(157,92,248), rgb(126,98,253));
+    color: white;
+    border-radius: 10px;
+    padding: 2.5rem 10rem 5rem;
+    gap: 2rem;
+}
+
+.imgUpload {
+    font-size: 6rem;
+}
+
+.scanner-heading {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.submit-btn {
+    background-color: white;
+    color: rgb(126,98,253);
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 1.5rem 3rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+    background-color: rgb(242, 242, 242);
+}
+
+.image-select-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.image-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-select {
+    background-color: white;
+    color: rgb(126,98,253);
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.btn-select:hover,
+.btn-select:focus {
+    background-color: rgb(242, 241, 241);
+}
+
+.filename {
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.invisible {
+    visibility: hidden;
+    color: red;
+}
+
+.invalid-file-error {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    
+}
+.opacity-0 {
+    opacity: 0;
+    position: absolute;
+    transform: translateX(-200%);
+}
+
+.animate-tick {
+    animation: spintickin .5s linear forwards;
+    position: absolute;
+    transform: translateX(-200%);
+}
+.animate-tick-out {
+    animation: spintickout.5s linear forwards;
+    position: absolute;
+}
+
+@keyframes spintickin {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+        transform: translate(0%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0%);
+    }
+}
+@keyframes spintickout {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+        transform: translate(-200%);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-200%);
+        display: none;
+    }
+}
+
+.animate-on-file-select-out {
+    animation: spinin .4s linear forwards;
+    position: relative;
+}
+.animate-on-file-select-in {
+    animation: spining .4s linear forwards;
+    position: relative;
+
+}
+
+
+@keyframes spinin {
+    0% {
+        opacity: 1;
+        display: block;
+    }
+    25%{
+        opacity: 0;
+        display: none;
+        transform: translateX(150%);
+    }
+  100% {
+    opacity: 0;
+    transform: translateX(150%);
+    display: none;
+  }
+}
+@keyframes spining {
+    0% {
+        opacity: 0;
+        transform: translateX(150%);
+    }
+    25%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@media (max-width: 620px) {
+    .scanner-heading {
+        font-size: 2.1rem;
+    }
+    .wrapper-scanner {
+        padding: 2rem 3rem 5rem;
+        gap: 1rem;
+    }
+    .container-scanner {
+        padding: 3rem 0;
+    }
+    .btn-select {
+        padding: .6rem 1.4rem;
+        font-size: 1rem;
+    }
+    .submit-btn {
+        background-color: white;
+        color: rgb(126,98,253);
+        font-weight: 500;
+        border-radius: 5px;
+        padding: 1rem 2.2rem;
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+}
