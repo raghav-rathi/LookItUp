@@ -4,11 +4,11 @@ Ratings of the product will also be displayed to the user based on safety compos
 
 
 Tech Stack:<br>
-GoLang<br> React<br> Gin<br> MySQL
+GoLang<br> React<br> Echo<br> MySQL
 
 Team Members:<br>
 Raghav Rathi : raghav-rathi (Frontend)<br>
+Daksh Mehta: dakshmehta23 (Frontend) <br>
 Priyanshu Prasad: priyanshu0499 (Backend)<br>
 Suneet Jain: suneet10 (Backend) <br>
-Daksh Mehta: dakshmehta23 (Frontend) <br>
 
