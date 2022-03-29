@@ -7,8 +7,8 @@ Tech Stack:<br>
 GoLang<br> React<br> Gin<br> MySQL
 
 Team Members:<br>
-Raghav Rathi : raghav-rathi (Front-End)<br>
-Priyanshu Prasad: priyanshu0499 (Back-End)<br>
-Suneet Jain: suneet10 (Back-End <br>
-Daksh Mehta: dakshmehta23 (Front-End) <br>
+Raghav Rathi : raghav-rathi (Frontend)<br>
+Priyanshu Prasad: priyanshu0499 (Backend)<br>
+Suneet Jain: suneet10 (Backend) <br>
+Daksh Mehta: dakshmehta23 (Frontend) <br>
 
