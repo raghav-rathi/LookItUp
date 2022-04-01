@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import { Navbar, Nav, Form, Button } from 'react-bootstrap';
 
 function Header(props) {
   return (
@@ -11,9 +12,15 @@ function Header(props) {
             <div className='scanner' onClick={props.goToHome}>    
                 Scanner
             </div> 
+            <div>
+              <Form className='divsearch'>
+                          <Form.Control className="search" type="text" placeholder="Enter Query" />
+              </Form>
+              <button className="button-31" role="button">Search</button>
+              
+            </div>
         </div>
     </div>
   )
 }
-
 export default Header;
