@@ -1,11 +1,9 @@
 package initialize
 
 import (
-	"github.com/raghav-rathi/LookItUp/tree/main/newcomponent_scanner/Backend/internal/http"
+	"github.com/raghav-rathi/LookItUp/newcomponent_scanner/Backend/internal/http"
 
-	"github.com/raghav-rathi/LookItUp/tree/main/newcomponent_scanner/Backend/pkg/db/mysql"
-
-	"github.com/raghav-rathi/LookItUp/tree/main/newcomponent_scanner/Backend/internal/initialize/http"
+	"github.com/raghav-rathi/LookItUp/newcomponent_scanner/Backend/pkg/db/mysql"
 )
 
 func InitializeApp() {
