@@ -12,7 +12,7 @@ var DB *sql.DB
 
 func CreateClient() {
 	// establishing the connection to MYSQL database
-	db, dbErr := sql.Open("mysql", "root:@tcp(127.0.0.1:3306)/scannerdatabase")
+	db, dbErr := sql.Open("mysql", "root:@tcp(127.0.0.1:3307)/scannerdatabase")
 	if dbErr != nil {
 		fmt.Println("Error in connection to MYSQL database.")
 		os.Exit(1)
