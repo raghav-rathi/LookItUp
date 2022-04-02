@@ -12,6 +12,7 @@ function Header(props) {
             <div className='scanner' onClick={props.goToHome}>    
                 Scanner
             </div> 
+            <a className='scanner' href="/about">About Us</a>
             <div>
               <Form className='divsearch'>
                           <Form.Control className="search" type="text" placeholder="Enter Query" />
