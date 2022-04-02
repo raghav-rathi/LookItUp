@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { Navbar, Nav, Form, Button } from 'react-bootstrap';
+import {Link} from 'react-router-dom'
 
 function Header(props) {
   return (
@@ -12,7 +13,7 @@ function Header(props) {
             <div className='scanner' onClick={props.goToHome}>    
                 Scanner
             </div> 
-            <a className='scanner' href="/about">About Us</a>
+            <Link to="/about"  className='scanner'>About Us</Link>
             <div>
               <Form className='divsearch'>
                           <Form.Control className="search" type="text" placeholder="Enter Query" />
