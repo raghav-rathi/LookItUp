@@ -12,7 +12,7 @@
 4.Develop Front end for the End-user so that they can upload the image of their product label.<br/>
 5.Display results of the classifying model and display a table with details of all the ingredients that is read by the OCR.<br/>
 6.Connect the Front-End and Back-End to have a working Model.<br/><br/>
-## **Demo Link :** https://www.youtube.com/watch?v=_fMxeFIBU7E <br/>!
+
 
 
 **Details of few APIs that were used :**<br/>
