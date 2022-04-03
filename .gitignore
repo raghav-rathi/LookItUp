@@ -1,3 +1,6 @@
 newcomponent_scanner/Backend/external/uploadAssets/
 
+newcomponent_scanner/scannerfrontend/node_modules/node_modules
+node_modules/
+newcomponent_scanner/scannerfrontend/node_modules/
 newcomponent_scanner/scannerfrontend/node_modules/
