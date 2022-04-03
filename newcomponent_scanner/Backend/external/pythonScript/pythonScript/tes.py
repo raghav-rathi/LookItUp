@@ -1,16 +1,3 @@
-# import json
-# import sys
-
-# list = [
-#         {"name":"Abhishek", "rating": "best", "description": "I am cool"},
-#         {"name":"Anita", "rating": "best", "description": "I am awesome"}
-#     ];
-
-# print("F I L E   N A M E   :   ", sys.argv[1])
-# print(json.dumps(list))
-
-
-
 from copyreg import pickle
 import re
 import datetime

@@ -59,10 +59,10 @@ func GetIngredientsWithrating(c echo.Context) error {
 	var output []byte
 	var outputErr error
 	if operating_system == "windows" {
-		cmd := exec.Command("python", fmt.Sprintf("%s/external/pythonScript/tes.py", cwd), fmt.Sprintf("%s/external/uploadAssets/%s", cwd, img_filename))
+		cmd := exec.Command("python", fmt.Sprintf("%s/external/pythonScript/pythonScript/tes.py", cwd), fmt.Sprintf("%s/external/uploadAssets/%s", cwd, img_filename))
 		output, outputErr = cmd.CombinedOutput()
 	} else {
-		cmd := exec.Command("python3", fmt.Sprintf("%s/external/pythonScript/tes.py", cwd), fmt.Sprintf("%s/external/uploadAssets/%s", cwd, img_filename))
+		cmd := exec.Command("python3", fmt.Sprintf("%s/external/pythonScript/pythonScript/tes.py", cwd), fmt.Sprintf("%s/external/uploadAssets/%s", cwd, img_filename))
 		output, outputErr = cmd.CombinedOutput()
 	}
 	if outputErr != nil {
