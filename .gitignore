@@ -1,1 +1,3 @@
-newcomponent_scanner/Backend/external/uploadAssets/*.jpg
+newcomponent_scanner/Backend/external/uploadAssets/
+
+newcomponent_scanner/scannerfrontend/node_modules/
