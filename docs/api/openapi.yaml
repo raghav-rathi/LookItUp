@@ -1,0 +1,127 @@
+openapi: 3.0.0
+
+info:
+  title: LookItUp API
+  version: 1.0.0
+
+servers:
+  - url: https://localhost:8081
+
+components:
+  schemas:
+    RestErr:
+      type: object
+      properties:
+        Message:
+          type: string
+        Status:
+          type: number
+        Error:
+          type: string
+    User:
+      type: object
+      properties:
+        ID:
+          type: number
+        first_name:
+          type: string
+        last_name:
+          type: string
+        password:
+          type: string
+        email:
+          type: string
+
+
+paths:
+  /api/register:
+    post:
+      summary: Register a user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/User"
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+        "4XX":
+          description: Client error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RestErr"
+        "5XX":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RestErr"
+  /api/login:
+    post:
+      summary: Login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/User"
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+        "4XX":
+          description: Client error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RestErr"
+        "5XX":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RestErr"
+  /api/user:
+    get:
+      summary: Get details of current user
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+        "4XX":
+          description: Client error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RestErr"
+        "5XX":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RestErr"
+  /api/logout:
+    get:
+      summary: Get details of current user
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  Message:
+                    type: string
