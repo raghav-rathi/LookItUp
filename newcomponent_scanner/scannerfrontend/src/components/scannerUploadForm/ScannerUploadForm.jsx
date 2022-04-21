@@ -70,7 +70,7 @@ function ScannerUploadForm(props) {
                     <div className={`imgUpload ${file!==undefined? 'animate-on-file-select-out': 'animate-on-file-select-in'}`}><FontAwesomeIcon icon={faFileImage}  /></div>
                     <div className={`imgUpload  ${file!==undefined? 'animate-tick': 'animate-tick-out'}`}><FontAwesomeIcon icon={faCheck}  /></div>
                     {/* name of image */}
-                    <div className={`filename ${file!==undefined? '': 'invisible'}`}>{file!==undefined? file.name: 'ghost letters'}</div>
+                    <div className={`filename ${file!==undefined? '': 'invisible'}`} id='textt'>{file!==undefined? file.name: 'ghost letters'}</div>
                     <div className='invalid-file-error'>{error!==undefined? `* ${error}`: 'Only pics allowed! (jpg, jpeg, gif, png)'}</div>
                     {/* choose file btn */}
                     <div className='image-input'>
@@ -78,7 +78,7 @@ function ScannerUploadForm(props) {
                         <input id='image-input' type="file" style={{display: 'none'}} onChange={(e) => selectFile(e)} />
                     </div>
                 </div>
-                <div className='submit-btn' onClick={submit}>
+                <div className='submit-btn' id='submitt' onClick={submit}>
                     Submit
                 </div>
             </div>
