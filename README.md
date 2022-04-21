@@ -47,6 +47,8 @@ Ratings of the product will also be displayed to the user based on safety compos
 
 - [API 5](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-5-scanner)
 
+- [API 6](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-6-health)
+
 
 ## Cypress Testing
 
