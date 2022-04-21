@@ -6,7 +6,7 @@ info:
 
 servers:
   - url: https://localhost:8081
-  
+
   components:
   schemas:
     RestErr:
@@ -31,3 +31,16 @@ servers:
           type: string
         email:
           type: string
+    
+    paths:
+  /api/register:
+    post:
+      summary: Register a user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/User"
+
+          
