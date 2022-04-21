@@ -8,14 +8,14 @@
  
 ## API Documentation: 
 
-- API 1: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-1-register-a-user
+- [API 1](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-1-register-a-user)
 
-- API 2: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-2-register-a-user
+- [API 2](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-2-register-a-user)
 
-- API 3: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-3-register-a-user
+- [API 3](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-3-register-a-user)
 
-- API 4: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-4-logs-out-a-user
+- [API 4](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-4-logs-out-a-user)
 
-- API 5: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-5-scanner
+- [API 5](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-5-logs-out-a-user)
 
-- API 6: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-6-health
+- [API 6](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-6-health)
