@@ -7,16 +7,22 @@ LookItUp is a web and mobile application that allows its users to scan the ingre
 Ratings of the product will also be displayed to the user based on safety composition(accuracy improves as our database expands).
 
 ## Tech Stack<br>
-- GoLang
-- React
-- Echo
-- MySQL
 
-## Authors <br>
-- Raghav Rathi : raghav-rathi (Frontend)
-- Daksh Mehta: dakshmehta23 (Frontend)
-- Priyanshu Prasad: priyanshu0499 (Backend)
-- Suneet Jain: suneet10 (Backend)
+- Frontend: React<br>
+- Backend : 
+  - Go 
+  - Echo 
+  - Tesseract 
+- Database : MySQL
+- Testing : Cypress
+
+
+
+## Team Members <br>
+- Raghav Rathi : [raghav-rathi](https://github.com/raghav-rathi) (Frontend)
+- Daksh Mehta: [dakshmehta23](https://github.com/dakshmehta23) (Frontend)
+- Priyanshu Prasad: [priyanshu0499](https://github.com/raghav-rathi/LookItUp/commits?author=priyanshu0499) (Backend)
+- Suneet Jain: [suneet10](https://github.com/suneet10) (Backend)
 
 ## Project Setup
 1.In order for this application to run you must make sure you have installed all libraries mentioned in requirements.txt.<br>
@@ -57,4 +63,6 @@ Ratings of the product will also be displayed to the user based on safety compos
 ## Cypress Testing
 
 ## Backend Unit Testing
+## Features
+- 
 
