@@ -6,6 +6,9 @@
 - ### 3.Prepared an API documentation descibing the API and instructions of how to use it effectively. </br>
 </br>
  
+## Project Board
+- [Sprint 4](https://github.com/raghav-rathi/LookItUp/projects/7)
+
 ## API Documentation: 
 
 - [API 1](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-1-register-a-user)
