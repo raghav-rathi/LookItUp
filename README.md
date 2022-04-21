@@ -63,6 +63,24 @@ Ratings of the product will also be displayed to the user based on safety compos
 ## Cypress Testing
 
 ## Backend Unit Testing
-## Features
-- 
+## Video Demonstration of the Product
+## Components and Functions
+- ### Sign up page
+![Sign Up](https://user-images.githubusercontent.com/45250166/164394777-dbea2981-15a0-4484-9b14-37a727fa9641.png)
+
+A new user can setup their account to use our product by entering their details and credentials.
+- ### Login Page
+![Loginscreen](https://user-images.githubusercontent.com/45250166/164394280-4cf28d65-7aa6-47da-a10b-7c6742d8e0ab.png)
+Existing users can enter their credentials to login into their account and use our product.
+
+- ### Ingredients Detail
+![piechart](https://user-images.githubusercontent.com/45250166/164394805-cb6d2183-a576-4076-a427-a8a250535317.png)
+
+Graphical representation of composition of ingredients.
+
+
+
+
+
+
 
