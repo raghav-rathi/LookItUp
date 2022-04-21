@@ -80,13 +80,24 @@ A new user can setup their account to use our product by entering their details 
 ![Loginscreen](https://user-images.githubusercontent.com/45250166/164394280-4cf28d65-7aa6-47da-a10b-7c6742d8e0ab.png)
 Existing users can enter their credentials to login into their account and use our product.
 
-- ### Ingredients Detail
+- ## File Upload
+![fileupload](https://user-images.githubusercontent.com/45250166/164412898-702ba7ae-5106-4629-98d5-917c5479a64c.png)
+![fileselect](https://user-images.githubusercontent.com/45250166/164412674-24951468-4603-4ccc-9d8c-9974ea3ad434.png)
+Users can upload an image of their product's label to scan the ingredients with the OCR. 
+
+
+- ## Ingredients Detail
 ![piechart](https://user-images.githubusercontent.com/45250166/164394805-cb6d2183-a576-4076-a427-a8a250535317.png)
+After reading the ingredients of the product entered by the user, application displays the details of every ingredients after comparing it with our database and tells whether the ingredients are good or bad.
+- ## Pie chart of Ingredient's Composition
+![ifdetails](https://user-images.githubusercontent.com/45250166/164412914-0ec72000-ebc2-43d8-83e5-0a8b2f3997be.png)
+Graphical representation of composition of ingredients gives a better understanding of the composition of the ingredients that is used in the user's product.
 
-Graphical representation of composition of ingredients.
 
-- ### Web URL:
-lookitupp.netlify.app
+
+
+ ## Web Hosted Application
+- ### Frontend : [Netlify](lookitupp.netlify.app)
 
 
 
