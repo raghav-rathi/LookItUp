@@ -97,7 +97,7 @@ Graphical representation of composition of ingredients gives a better understand
 
 
  ## Web Hosted Application
-- ### Frontend : [Netlify](lookitupp.netlify.app)
+- ### Deployment : [Netlify](lookitupp.netlify.app)
 
 
 
