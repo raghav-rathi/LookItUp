@@ -110,7 +110,20 @@ servers:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/RestErr"           
+                $ref: "#/components/schemas/RestErr"
+  /api/logout:
+    get:
+      summary: Get details of current user
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  Message:
+                    type: string           
  
 
           
