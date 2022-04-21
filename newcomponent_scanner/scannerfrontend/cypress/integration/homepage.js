@@ -14,7 +14,6 @@ describe("homepage launches correctly", () => {
     it("Routes to a different page",()=>{
         cy.visit('/');
         cy.get('a.scanner').click();
-        cy.url().should("include","about")
-        
-    })
+        cy.url().should("include","about"); 
+    });
 });
