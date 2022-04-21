@@ -21,3 +21,17 @@
 			},
 			"response": []
 		},
+        {
+			"name": "localhost:5001/product/B-0.2373.T",
+			"request": {
+				"url": "localhost:5001/product/B-0.2373.T",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
