@@ -1,18 +1,28 @@
 # LookItUp
+
+<img width="914" alt="banner" src="https://user-images.githubusercontent.com/45250166/164387389-28fa8421-e720-429b-a50b-0b679e918865.png">
+
+
 LookItUp is a web and mobile application that allows its users to scan the ingredient list of their cosmetic and grocery products to check for harmful compositions. It will categorize the components of the product as Safe or Harmful. Further you can look up the use case of each component used in the product and how it is manufactured. If the product contains harmful components, then the user will have the option to look up safe alternatives.
 Ratings of the product will also be displayed to the user based on safety composition(accuracy improves as our database expands).
 
 ## Tech Stack<br>
-- GoLang
-- React
-- Echo
-- MySQL
 
-## Authors <br>
-- Raghav Rathi : raghav-rathi (Frontend)
-- Daksh Mehta: dakshmehta23 (Frontend)
-- Priyanshu Prasad: priyanshu0499 (Backend)
-- Suneet Jain: suneet10 (Backend)
+- Frontend: React<br>
+- Backend : 
+  - Go 
+  - Echo 
+  - Tesseract 
+- Database : MySQL
+- Testing : Cypress
+
+
+
+## Team Members <br>
+- Raghav Rathi : [raghav-rathi](https://github.com/raghav-rathi) (Frontend)
+- Daksh Mehta: [dakshmehta23](https://github.com/dakshmehta23) (Frontend)
+- Priyanshu Prasad: [priyanshu0499](https://github.com/raghav-rathi/LookItUp/commits?author=priyanshu0499) (Backend)
+- Suneet Jain: [suneet10](https://github.com/suneet10) (Backend)
 
 ## Project Setup
 1.In order for this application to run you must make sure you have installed all libraries mentioned in requirements.txt.<br>
@@ -53,4 +63,6 @@ Ratings of the product will also be displayed to the user based on safety compos
 ## Cypress Testing
 
 ## Backend Unit Testing
+## Features
+- 
 
