@@ -13,3 +13,5 @@
 - API 2: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-2-register-a-user
 
 - API 3: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-3-register-a-user
+
+- API 4: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-4-logs-out-a-user
