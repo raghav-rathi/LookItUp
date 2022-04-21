@@ -85,6 +85,9 @@ Existing users can enter their credentials to login into their account and use o
 
 Graphical representation of composition of ingredients.
 
+-### Web URL:
+lookitupp.netlify.app
+
 
 
 
