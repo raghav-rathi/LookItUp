@@ -6,3 +6,28 @@ info:
 
 servers:
   - url: https://localhost:8081
+  
+  components:
+  schemas:
+    RestErr:
+      type: object
+      properties:
+        Message:
+          type: string
+        Status:
+          type: number
+        Error:
+          type: string
+    User:
+      type: object
+      properties:
+        ID:
+          type: number
+        first_name:
+          type: string
+        last_name:
+          type: string
+        password:
+          type: string
+        email:
+          type: string
