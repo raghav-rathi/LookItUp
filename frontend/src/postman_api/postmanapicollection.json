@@ -1,0 +1,23 @@
+{
+	"variables": [],
+	"info": {
+		"name": "LookItUp",
+		"_postman_id": "5679chh56-998h-r567-730a-c6f98u76h120",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:5001/",
+			"request": {
+				"url": "localhost:5001/",
+				"method": "GETUserDatabase",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
