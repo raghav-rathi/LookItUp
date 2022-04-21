@@ -14,6 +14,10 @@ https://user-images.githubusercontent.com/45250166/164404963-c33cc52a-f456-4964-
 
 ## Cypress Testing
 
+
+https://user-images.githubusercontent.com/45225674/164406480-699dd0d7-6aaf-4222-b234-01fca1f9b618.mp4
+
+
 ## Backend Unit Testing
 
 ## API Documentation
@@ -57,15 +61,15 @@ https://user-images.githubusercontent.com/45250166/164404963-c33cc52a-f456-4964-
 - Database : MySQL
 - Testing : Cypress
 
-## Project Setup
-1.In order for this application to run you must make sure you have installed all libraries mentioned in requirements.txt.<br>
-2.Then you should connect to the MySQL database using XAMPP server and you can import the CSV file into a database.<br>
-3.We have saved an SQL database that you can easily import and it has the table comestic_ingredients ready.<br>
-4.After that you must make sure that you have ran npm install or npm I in the main react folder (newcomponent_scanner/scannerfrontend) this is where the react file is.<br>
-5.Ensure that all the packages mentioned in the package.json file have been downloaded and installed with the same version to avoid any errors.<br>
-6.Then run the command npm start.<br>
-7.Open a new terminal, then go to the folder where the main.go file resides and run the command "go run main.go".<br>
-8.Upload a picture in the browser and give it a few seconds for the results to appear.<br>
+## Project Setup - How to run
+> 1. In order for this application to run you must make sure you have installed all libraries mentioned in requirements.txt.<br>
+> 2. Then you should connect to the MySQL database using XAMPP server and you can import the CSV file into a database.<br>
+> 3. We have saved an SQL database that you can easily import and it has the table comestic_ingredients ready.<br>
+> 4. After that you must make sure that you have ran npm install or npm i in the main react folder (newcomponent_scanner/scannerfrontend) this is where the react file is.<br>
+> 5. Ensure that all the packages mentioned in the package.json file have been downloaded and installed with the same version to avoid any errors.<br>
+> 6. Then run the command npm start.<br>
+> 7. Open a new terminal, then go to the folder where the main.go file resides and run the command "go run main.go".<br>
+> 8. Upload a picture in the browser and give it a few seconds for the results to appear.<br>
 
 ## Components and Functions
 - ### Sign up page
