@@ -19,7 +19,7 @@ function App() {
   }
   return (
     <Router>
-      <div className="App">
+      <div className="App" id="home">
         <Header goToHome={goToHome} />
         <Route path='/about' component={About} /> 
         <Route path='/' exact render={(props) =>(
