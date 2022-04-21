@@ -28,7 +28,7 @@ function ScannerTable(props) {
                 <div className='chart-btn' onClick={() => setShowChart(true)}>Chart</div>
             </div>
             {showChart === true ? <Chart data={props.data.data} closePopup={closePopup} /> : null}
-            <div className='wrapper-table' id='piechart'>
+            <div className='wrapper-table'>
                 <table className='table'>
                     <thead className=''>
                         <tr className=''>
