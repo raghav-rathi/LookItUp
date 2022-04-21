@@ -16,4 +16,6 @@
 
 - API 4: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-4-logs-out-a-user
 
-- API 5: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-5-logs-out-a-user
+- API 5: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-5-scanner
+
+- API 6: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-6-health
