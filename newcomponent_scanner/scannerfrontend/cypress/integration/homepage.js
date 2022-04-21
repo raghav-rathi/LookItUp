@@ -10,4 +10,11 @@ describe("homepage launches correctly", () => {
         cy.get('.button-31').click();
         cy.get('.search').click();
     });
+
+    it("Routes to a different page",()=>{
+        cy.visit('/');
+        cy.get('a.scanner').click();
+        cy.url().should("include","about")
+        
+    })
 });
