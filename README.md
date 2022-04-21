@@ -37,15 +37,15 @@ Ratings of the product will also be displayed to the user based on safety compos
 - [Sprint 4](https://github.com/raghav-rathi/LookItUp/blob/main/Sprint4.md)
 
 ## API Documentation
-- API 1: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-1-register-a-user
+- [API 1](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-1-register-a-user)
 
-- API 2: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-2-register-a-user
+- [API 2](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-2-register-a-user)
 
-- API 3: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-3-register-a-user
+- [API 3](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-3-register-a-user)
 
-- API 4: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-4-logs-out-a-user
+- [API 4](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-4-logs-out-a-user)
 
-- API 5: https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-5-logs-out-a-user
+- [API 5](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-5-logs-out-a-user)
 
 
 ## Cypress Testing
