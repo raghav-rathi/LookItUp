@@ -45,7 +45,7 @@ Ratings of the product will also be displayed to the user based on safety compos
 
 - [API 4](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-4-logs-out-a-user)
 
-- [API 5](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-5-logs-out-a-user)
+- [API 5](https://github.com/raghav-rathi/LookItUp/wiki/API-Documnetation#api-5-scanner)
 
 
 ## Cypress Testing
