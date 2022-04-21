@@ -54,3 +54,43 @@
 			},
 			"response": []
 		},
+        {
+			"name": "localhost:5001/signup",
+			"request": {
+				"url": "localhost:5001/signup",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"UserName\": \"abc\",\n    \"Password\": \"test\",\n    \"FirstName\": \"aishwarya\",\n    \"LastName\": \"sharma\",\n    \"Email\": \"abc@gmail.com\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5001/login",
+			"request": {
+				"url": "localhost:5001/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"UserName\": \"abc\", \"Password\":\"test\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
