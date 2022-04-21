@@ -8,6 +8,10 @@ To begin with, the user will have to first log in or sign-up for authenticity re
 
 ## Video Demonstration of the Product
 
+
+https://user-images.githubusercontent.com/45250166/164404963-c33cc52a-f456-4964-a541-f1a73836457f.mp4
+
+
 ## Cypress Testing
 
 ## Backend Unit Testing
