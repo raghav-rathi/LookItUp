@@ -93,10 +93,11 @@ Users can upload an image of their product's label to scan the ingredients with 
 
 
 - ## Ingredients Detail
-![piechart](https://user-images.githubusercontent.com/45250166/164394805-cb6d2183-a576-4076-a427-a8a250535317.png)
+![ifdetails](https://user-images.githubusercontent.com/45250166/164412914-0ec72000-ebc2-43d8-83e5-0a8b2f3997be.png)
+
 After reading the ingredients of the product entered by the user, application displays the details of every ingredients after comparing it with our database and tells whether the ingredients are good or bad.
 - ## Pie chart of Ingredient's Composition
-![ifdetails](https://user-images.githubusercontent.com/45250166/164412914-0ec72000-ebc2-43d8-83e5-0a8b2f3997be.png)
+![piechart](https://user-images.githubusercontent.com/45250166/164394805-cb6d2183-a576-4076-a427-a8a250535317.png)
 Graphical representation of composition of ingredients gives a better understanding of the composition of the ingredients that is used in the user's product.
 
 
