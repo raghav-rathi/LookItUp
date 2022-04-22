@@ -104,7 +104,7 @@ Graphical representation of composition of ingredients gives a better understand
 
 
  ## Web Hosted Application
-- ### Deployment : [Netlify](lookitupp.netlify.app)
+- ### Deployment : [Netlify](https://lookitupp.netlify.app/)
 
 
 
